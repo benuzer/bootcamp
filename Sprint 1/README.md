@@ -44,6 +44,14 @@ Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması n
 - Bu iki fikir detaylandırılıp ekiple paylaşılacak.
 - Toplantıya katılamayan üyeler için Slack mesajları düzenli takip edilecek.
 
+Daily Scrum ve ekip iletişimi ekran görüntüleri:
+
+![Daily Scrum 1](./images/daily-scrum-1.png)
+
+![Daily Scrum 2](./images/daily-scrum-2.png)
+
+![Daily Scrum 3](./images/daily-scrum-3.png)
+
 ## Sprint Board Update
 
 Sprint board, Miro üzerinde Product Backlog ve To Do / In Progress / Done sütunlarıyla yürütülmektedir. Güncel board yukarıdaki Product Backlog (Miro) bağlantısından görülebilir.
