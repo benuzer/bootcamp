@@ -48,7 +48,7 @@ Otopilot, kullanıcının yüklediği toplantı ses kaydını veya transkriptini
 
 ### Product Backlog URL
 
-[Miro Product Backlog Board](EKLENECEK_MIRO_LINKI)
+[Miro Product Backlog Board](https://miro.com/app/board/uXjVH-qS2yM=/?share_link_id=828504705814)
 
 ---
 
