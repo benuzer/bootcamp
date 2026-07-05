@@ -34,7 +34,7 @@ Her story, yapılacak somut işlere (task'lara) ayrılmıştır. Miro Board'da m
 | 9 | Çıktı dili seçme (TR/EN) | 2 |
 | 10 | Hesap oluşturma ve giriş | 3 |
 
-**Product Backlog (Miro):** [EKLENECEK_MIRO_LINKI]
+**Product Backlog (Miro):** [Miro Board](https://miro.com/app/board/uXjVH-qS2yM=/?share_link_id=828504705814)
 
 ### Bu Sprinte Seçilen Story'ler
 
