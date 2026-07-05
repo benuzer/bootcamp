@@ -7,19 +7,19 @@
 
 ## Sprint İçinde Tahmin Edilen Puan
 
-- Product Backlog toplam puanı: **29 puan** (10 story)
-- Sprint başına hedef: toplam puanın yaklaşık üçte biri, ~10 puan
+- Product Backlog toplam puanı: **16 puan** (5 story)
+- Sprint başına hedef: toplam puanın yaklaşık üçte biri, ~5 puan
 - **Puan tamamlama mantığı:** Toplam puan 3 sprinte bölünerek sprint başına hedef belirlenmiştir. Sprint 1 bir planlama sprinti olduğundan bu sprintte geliştirme puanı tamamlanmamış, ürünün temeli atılmıştır. Seçilen çekirdek story (Story 1) Sprint 2'de geliştirilecektir.
 
 ## Backlog Dağıtma Mantığı
 
-Product Backlog'umuz, ürünün ihtiyaç duyacağı işlerin önem sırasına göre dizilmesiyle oluşturulmuştur. Ürünün çekirdek değerini oluşturan story'ler (transkriptten özet, görev listesi ve takip maili üretme) listenin en üstüne konmuş; kolaylık ve ek özellikler (ses yükleme, geçmiş kayıtlar, dil seçimi) alt sıralara bırakılmıştır.
+Product Backlog'umuz, ürünün ihtiyaç duyacağı işlerin önem sırasına göre dizilmesiyle oluşturulmuştur. Ürünün çekirdek değerini oluşturan story'ler (transkriptten özet, görev listesi ve takip maili üretme) listenin en üstüne konmuş; ek özellikler (sonraki toplantı gündemi, ses yükleme) alt sıralara bırakılmıştır.
 
 Her story'ye, işin birbirine göre zorluğunu gösteren kaba bir puan verilmiştir (1 en kolay, 8 en zor). Puanlamada saat değil, story'lerin göreceli büyüklüğü esas alınmıştır. Story başına verilen puan, toplam puanın yarısından az tutulacak şekilde işler yeterince küçük parçalara bölünmüştür.
 
 Her story, yapılacak somut işlere (task'lara) ayrılmıştır. Miro Board'da mavi kartlar story'leri, kırmızı kartlar ise o story'lere bağlı task'ları temsil etmektedir. Sprint başında seçilen story'lerin task'ları "To Do" sütununa alınmış, iş ilerledikçe "In Progress" ve "Done" sütunlarına taşınacak şekilde bir Sprint Board kurulmuştur.
 
-### Product Backlog (özet)
+### Product Backlog
 
 | # | Story | Puan |
 |---|-------|------|
@@ -28,11 +28,6 @@ Her story, yapılacak somut işlere (task'lara) ayrılmıştır. Miro Board'da m
 | 3 | Müşteriye takip maili üretme *(çekirdek)* | 3 |
 | 4 | Sonraki toplantı gündemi üretme | 2 |
 | 5 | Ses dosyası yükleyip metne çevirme | 5 |
-| 6 | Çıktıları düzenleyip kopyalama | 2 |
-| 7 | Toplantı türüne göre özelleştirme *(farklılaştırıcı)* | 3 |
-| 8 | Geçmiş toplantıları görüntüleme | 3 |
-| 9 | Çıktı dili seçme (TR/EN) | 2 |
-| 10 | Hesap oluşturma ve giriş | 3 |
 
 **Product Backlog (Miro):** [Miro Board](https://miro.com/app/board/uXjVH-qS2yM=/?share_link_id=828504705814)
 
@@ -77,7 +72,7 @@ Bu sprint bir planlama ve kurulum sprinti olarak geçmiştir. Sprint boyunca yap
 
 - Ürün fikri ve hedef kitle netleştirildi (ajans ve freelancer'ların müşteri toplantıları).
 - GitHub reposu açıldı ve public yapıldı.
-- Product Backlog oluşturuldu: 10 story yazıldı, puanlandı ve task'lara bölündü.
+- Product Backlog oluşturuldu: 5 story yazıldı, puanlandı ve task'lara bölündü.
 - Sprint Board kuruldu ve bu sprintin story'leri seçildi.
 - Ürünün ilk ekran mockup'ı hazırlandı.
 
