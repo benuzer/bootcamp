@@ -11,6 +11,10 @@
 - Sprintte tamamlanan puan: **11 puan** (Story 1, 2 ve 5)
 - **Puan tamamlama mantığı:** Toplam 16 puanlık backlog 3 sprinte bölünmüştür. Sprint 1 planlama sprinti olduğu için geliştirme puanı içermiyordu; asıl geliştirme puanı bu sprintte toplanmıştır. Story 3 (takip maili) bu sprintte başlanamamış, Sprint 3'e bırakılmıştır.
 
+## Bu Sprintte Alınan Teknik Kararlar
+
+**Otomasyon platformu n8n'den Dify'a taşındı.** Sprint 1'de akışın ilk versiyonu n8n üzerinde prototiplenmişti. Bu sprintte, ekip olarak geliştirmeye Dify üzerinden devam etme kararı alınmıştır. Dify'ın LLM adımlarını, koşullu dallanmayı ve hazır Web App / Service API desteğini tek yerde sunması, ürünü hem geliştirmek hem de dışarıya açmak açısından daha pratik bulunmuştur. Akış Dify'da bir Chatflow olarak yeniden kurulmuş ve Dify Cloud'a taşınmıştır.
+
 ## Backlog Dağıtma Mantığı
 
 Product Backlog, ürünün çekirdek değerini oluşturan story'ler en üstte olacak şekilde önem sırasına göre dizilmiştir. Her story'ye işin göreceli zorluğunu gösteren kaba bir puan verilmiş, story'ler yapılacak somut işlere (task'lara) bölünmüştür.
@@ -24,7 +28,7 @@ Bu sprintte, Sprint 1'de "To Do" sütununa alınmış olan çekirdek story'ler g
 | 1 | Transkript → Özet üretme | 3 | Ebuzer | Done |
 | 2 | Görev listesi çıkarma | 3 | Ebuzer | Done |
 | 5 | Ses dosyası → transkripte çevirme | 5 | Ebuzer | Done |
-| — | Dify + Groq otomasyon akışının kurulması | — | Ebuzer | Done |
+| — | Otomasyon akışının Dify üzerinde kurulması | — | Ebuzer | Done |
 | — | Arayüz tasarımları (masaüstü + mobil) | — | İrem | In Progress |
 | — | Ürünü ön yüz arayüzüne bağlama | — | İrem | In Progress |
 | 3 | Müşteriye takip maili üretme | 3 | Yiğit | To Do |
@@ -41,6 +45,7 @@ Ekip iletişimi Slack üzerinden yürütülmüş, haftalık toplantılarla ilerl
 **12 Temmuz 2026 — Sprint 2 Haftalık Toplantı Notları**
 - Sprint 2 bir geliştirme sprinti olarak ele alındı; hedefin ilk test edilebilir ürünü çıkarmak olduğu kararlaştırıldı.
 - Ebuzer'in geliştirdiği ilk otomasyon üzerinde konuşuldu.
+- Otomasyonun n8n yerine Dify üzerinden geliştirilmesine karar verildi.
 - Ses kaydını transkripte çeviren ve görev dağılımı yapan ilk ürün hazır hale geldi ve test edilmeye başlandı.
 - Story 3 (takip maili) özelliğinin duruma göre, zaman kalırsa ekleneceği kararlaştırıldı.
 
@@ -66,7 +71,7 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 
 ## Sprint Review
 
-- Toplantı-sonrası otomasyon akışı Dify üzerinde kuruldu ve çalışır hale getirildi.
+- Otomasyon platformu olarak Dify'a geçilmesine karar verildi ve akış Dify üzerinde yeniden kuruldu.
 - Ses kaydından transkripte çevirme (Story 5) tamamlandı.
 - Transkriptten özet üretme (Story 1) tamamlandı.
 - Sorumlusuyla birlikte görev listesi çıkarma (Story 2) tamamlandı.
@@ -80,7 +85,7 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 
 **İyi giden:**
 - Çekirdek ürün planlanandan hızlı çıktı; özet ve görev listesi üretimi sprint ortasında çalışır hale geldi.
-- Otomasyonun Dify Cloud'a taşınması, ekibin ortak erişimini kolaylaştırdı.
+- Platform değişikliği (n8n → Dify) erken alındığı için geliştirme sekteye uğramadı; Dify Cloud'a taşınması ekibin ortak erişimini kolaylaştırdı.
 
 **Geliştirilebilecek:**
 - Arayüz ve otomasyon geliştirmesi paralel ilerledi ama entegrasyon planı sprint başında netleştirilmemişti; bağlantı işi sprint sonuna kaldı.
