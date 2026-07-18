@@ -9,7 +9,7 @@
 
 - Bu sprint için hedeflenen puan: **~9 puan** (Story 1, 2 ve 3)
 - Sprintte tamamlanan puan: **11 puan** (Story 1, 2 ve 5)
-- **Puan tamamlama mantığı:** Toplam 16 puanlık backlog 3 sprinte bölünmüştür. Sprint 1 planlama sprinti olduğu için geliştirme puanı içermiyordu; asıl geliştirme puanı bu sprintte toplanmıştır. Story 3 (takip maili) bu sprintte başlanamamış, Sprint 3'e bırakılmıştır.
+- **Puan tamamlama mantığı:** Toplam 16 puanlık backlog 3 sprinte bölünmüştür. Sprint 1 planlama sprinti olduğu için geliştirme puanı içermiyordu; asıl geliştirme puanı bu sprintte toplanmıştır. Story 3 (takip maili) bu sprintte başlanmış ancak tamamlanamamış, Sprint 3'e bırakılmıştır.
 
 ## Bu Sprintte Alınan Teknik Kararlar
 
@@ -17,9 +17,9 @@
 
 ## Backlog Dağıtma Mantığı
 
-Product Backlog, ürünün çekirdek değerini oluşturan story'ler en üstte olacak şekilde önem sırasına göre dizilmiştir. Her story'ye işin göreceli zorluğunu gösteren kaba bir puan verilmiş, story'ler yapılacak somut işlere (task'lara) bölünmüştür.
+Product Backlog, ürünün çekirdek değerini oluşturan story'ler en üstte olacak şekilde önem sırasına göre dizilmiştir. Her story'ye işin göreceli zorluğunu gösteren kaba bir puan verilmiş, story'ler yapılacak somut işlere (task'lara) bölünmüştür. Miro'daki Product Backlog panosunda mavi kartlar story'leri, kırmızı kartlar ise o story'lere bağlı task'ları göstermektedir.
 
-Bu sprintte, Sprint 1'de "To Do" sütununa alınmış olan çekirdek story'ler geliştirmeye açılmıştır. Sprint boyunca kartlar ilerledikçe Miro board üzerinde To Do → In Progress → Done sütunları arasında taşınmıştır.
+![Product Backlog - Story Detayları](./images/product-backlog.png)
 
 ### Product Backlog ve Sprint Sonu Durumu
 
@@ -29,12 +29,12 @@ Bu sprintte, Sprint 1'de "To Do" sütununa alınmış olan çekirdek story'ler g
 | 2 | Görev listesi çıkarma | 3 | Ebuzer | Done |
 | 5 | Ses dosyası → transkripte çevirme | 5 | Ebuzer | Done |
 | — | Otomasyon akışının Dify üzerinde kurulması | — | Ebuzer | Done |
+| 3 | Müşteriye takip maili üretme | 3 | Yiğit | In Progress |
 | — | Arayüz tasarımları (masaüstü + mobil) | — | İrem | In Progress |
 | — | Ürünü ön yüz arayüzüne bağlama | — | İrem | In Progress |
-| 3 | Müşteriye takip maili üretme | 3 | Yiğit | To Do |
 | 4 | Sonraki toplantı gündemi üretme | 2 | — | Backlog |
 | 7 | Toplantı türüne göre özelleştirme | 3 | — | Backlog |
-| 6 | Geçmiş toplantıları görüntüleme | 3 | — | Backlog |
+| 8 | Geçmiş toplantıları görüntüleme | 3 | — | Backlog |
 
 **Product Backlog (Miro):** [Miro Board](https://miro.com/app/board/uXjVH-qS2yM=/?share_link_id=828504705814)
 
@@ -49,15 +49,21 @@ Ekip iletişimi Slack üzerinden yürütülmüş, haftalık toplantılarla ilerl
 - Ses kaydını transkripte çeviren ve görev dağılımı yapan ilk ürün hazır hale geldi ve test edilmeye başlandı.
 - Story 3 (takip maili) özelliğinin duruma göre, zaman kalırsa ekleneceği kararlaştırıldı.
 
-**Görev dağılımı:** Ebuzer otomasyonu geliştirdi, İrem ürünü ön yüz tasarımına bağlıyor, İpek ürün tarafında kalite kontrolünü sağlıyor, Yiğit takip maili sistemini kuracak, Melike süreç yönetimi ve teslimden sorumlu.
+**Görev dağılımı:** Ebuzer çekirdek otomasyonu geliştirdi ve geliştirmeye devam ediyor, İrem ürünü ön yüz tasarımına bağlıyor, İpek ürün tarafında kalite kontrolü ve test yapıyor, Yiğit takip maili (Story 3) üzerinde deneme yapıyor, Melike sprint planlaması ve teslim belgelerinden sorumlu.
 
-<!-- Slack ekran görüntülerini images klasörüne yükleyip buraya ekleyin -->
+Slack üzerinden yürütülen ekip iletişimi ve toplantı notları:
+
+![Slack 1](./images/sprint2-slack-01.png)
+
+![Slack 2](./images/sprint2-slack-02.png)
+
+![Slack 3](./images/sprint2-slack-03.png)
 
 ## Sprint Board Update
 
-Sprint board Miro üzerinde, Backlog / To Do / In Progress / Done sütunlarıyla yürütülmektedir. Kartlarda puan, sorumlu ve story/task etiketi yer almaktadır. Güncel board yukarıdaki Miro bağlantısından görülebilir.
+Sprint board Miro üzerinde, Backlog / To Do / In Progress / Done sütunlarıyla yürütülmektedir. Kartlarda puan, sorumlu ve story/task etiketi yer almaktadır.
 
-<!-- Board ekran görüntüsünü images klasörüne yükleyip buraya ekleyin -->
+![Sprint 2 Board](./images/sprint2-board.png)
 
 ## Ürün Durumu
 
