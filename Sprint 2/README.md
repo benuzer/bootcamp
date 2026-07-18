@@ -9,7 +9,7 @@
 
 - Bu sprint için hedeflenen puan: **~9 puan** (Story 1, 2 ve 3)
 - Sprintte tamamlanan puan: **11 puan** (Story 1, 2 ve 5)
-- **Puan tamamlama mantığı:** Toplam 16 puanlık backlog 3 sprinte bölünmüştür. Sprint 1 planlama sprinti olduğu için geliştirme puanı içermiyordu; asıl geliştirme puanı bu sprintte toplanmıştır. Story 3 (takip maili) bu sprintte başlanmış ancak tamamlanamamış, Sprint 3'e bırakılmıştır.
+- **Puan tamamlama mantığı:** Toplam 16 puanlık backlog 3 sprinte bölünmüştür. Sprint 1 planlama sprinti olduğu için geliştirme puanı içermiyordu; asıl geliştirme puanı bu sprintte toplanmıştır. Story 3 (takip maili) bu sprintte başlanamamış, Sprint 3'e bırakılmıştır.
 
 ## Bu Sprintte Alınan Teknik Kararlar
 
@@ -29,9 +29,9 @@ Product Backlog, ürünün çekirdek değerini oluşturan story'ler en üstte ol
 | 2 | Görev listesi çıkarma | 3 | Ebuzer | Done |
 | 5 | Ses dosyası → transkripte çevirme | 5 | Ebuzer | Done |
 | — | Otomasyon akışının Dify üzerinde kurulması | — | Ebuzer | Done |
-| 3 | Müşteriye takip maili üretme | 3 | Yiğit | In Progress |
-| — | Arayüz tasarımları (masaüstü + mobil) | — | İrem | In Progress |
+| — | Arayüz tasarımları (masaüstü + mobil) | — | İrem | Done |
 | — | Ürünü ön yüz arayüzüne bağlama | — | İrem | In Progress |
+| 3 | Müşteriye takip maili üretme | 3 | Yiğit | To Do |
 | 4 | Sonraki toplantı gündemi üretme | 2 | — | Backlog |
 | 7 | Toplantı türüne göre özelleştirme | 3 | — | Backlog |
 | 8 | Geçmiş toplantıları görüntüleme | 3 | — | Backlog |
@@ -49,7 +49,7 @@ Ekip iletişimi Slack üzerinden yürütülmüş, haftalık toplantılarla ilerl
 - Ses kaydını transkripte çeviren ve görev dağılımı yapan ilk ürün hazır hale geldi ve test edilmeye başlandı.
 - Story 3 (takip maili) özelliğinin duruma göre, zaman kalırsa ekleneceği kararlaştırıldı.
 
-**Görev dağılımı:** Ebuzer çekirdek otomasyonu geliştirdi ve geliştirmeye devam ediyor, İrem ürünü ön yüz tasarımına bağlıyor, İpek ürün tarafında kalite kontrolü ve test yapıyor, Yiğit takip maili (Story 3) üzerinde deneme yapıyor, Melike sprint planlaması ve teslim belgelerinden sorumlu.
+**Toplantıda planlanan görev dağılımı:** Ebuzer çekirdek otomasyonu geliştirmeye devam edecek, İrem ürünü ön yüz tasarımına bağlayacak, İpek ürün tarafında kalite kontrolü yapacak, Yiğit takip maili (Story 3) üzerinde çalışacak, Melike sprint planlaması ve teslim belgelerinden sorumlu olacak.
 
 Slack üzerinden yürütülen ekip iletişimi ve toplantı notları:
 
@@ -71,7 +71,7 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 
 **Otomasyon (Dify + Groq):** Toplantı-sonrası akış Dify üzerinde bir Chatflow olarak kurulmuştur. Akış, kullanıcının ses dosyası yüklemesi durumunda Groq'un transkripsiyon servisiyle kaydı yazıya döker; metin girildiğinde ise doğrudan analiz eder. Ardından LLM adımı toplantı özetini ve sorumlularıyla birlikte görev listesini üretir. Uygulama Dify Cloud'a taşınmış, Web App ve Service API yayına alınmıştır.
 
-**Arayüz:** Ürünün masaüstü ve mobil arayüz tasarımları hazırlanmıştır (giriş ekranı, özet, görev listesi, takip maili ve sonraki gündem ekranları). Arayüzün otomasyona bağlanması çalışması bu sprintte başlamış olup Sprint 3'te tamamlanacaktır.
+**Arayüz:** Ürünün masaüstü ve mobil arayüz tasarımları tamamlanmıştır (giriş ekranı, özet, görev listesi, takip maili ve sonraki gündem ekranları). Arayüzün otomasyona bağlanması çalışması bu sprintte başlamış olup Sprint 3'te tamamlanacaktır.
 
 <!-- Çalışan ürünün ekran görüntülerini / kısa ekran kaydını images klasörüne yükleyip buraya ekleyin -->
 
@@ -82,10 +82,10 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 - Transkriptten özet üretme (Story 1) tamamlandı.
 - Sorumlusuyla birlikte görev listesi çıkarma (Story 2) tamamlandı.
 - Uygulama Dify Cloud'a taşındı; Web App ve Service API yayına alındı.
-- Masaüstü ve mobil arayüz tasarımları hazırlandı.
+- Masaüstü ve mobil arayüz tasarımları tamamlandı.
 - **Tamamlanamayan:** Arayüzün otomasyona bağlanması ve Story 3 (takip maili) Sprint 3'e taşınmıştır.
 
-**Katılımcılar:** İpek Ilgın Şimşek, Melike Yıldız, Ebuzer Yitiz, İrem Tosun, Yiğit Pakçe.
+**Sprint Review katılımcıları:** Melike Yıldız, Ebuzer Yitiz, İrem Tosun.
 
 ## Sprint Retrospective
 
@@ -94,10 +94,12 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 - Platform değişikliği (n8n → Dify) erken alındığı için geliştirme sekteye uğramadı; Dify Cloud'a taşınması ekibin ortak erişimini kolaylaştırdı.
 
 **Geliştirilebilecek:**
+- Bu sprintte ekip içi katılım dengeli olmadı; işlerin büyük kısmı birkaç kişide toplandı. Görev dağılımının takibi ve düzenli geri bildirim akışı sonraki sprintte netleştirilmelidir.
 - Arayüz ve otomasyon geliştirmesi paralel ilerledi ama entegrasyon planı sprint başında netleştirilmemişti; bağlantı işi sprint sonuna kaldı.
 - Model sağlayıcı ve API anahtarı gibi teknik bağımlılıklar tek kişide toplandığı için bazı adımlarda beklemek gerekti.
 
 **Sonraki sprint için aksiyonlar:**
+- Görev dağılımını sprint başında netleştirip ilerlemeyi düzenli takip etmek; her üyenin üstlendiği işi Daily Scrum üzerinden görünür kılmak.
 - Arayüzü otomasyona bağlayıp ürünü uçtan uca çalışır hale getirmek.
 - Story 3'ü (takip maili) tamamlamak.
 - Erişim ve anahtar paylaşımını baştan netleştirerek tek kişiye bağımlılığı azaltmak.
