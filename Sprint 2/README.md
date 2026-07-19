@@ -73,15 +73,12 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 
 **Arayüz:** Ürünün masaüstü ve mobil arayüz tasarımları tamamlanmıştır (giriş ekranı, özet, görev listesi, takip maili ve sonraki gündem ekranları). Arayüzün otomasyona bağlanması çalışması bu sprintte başlamış olup Sprint 3'te tamamlanacaktır.
 
-<!-- Çalışan ürünün ekran görüntülerini / kısa ekran kaydını images klasörüne yükleyip buraya ekleyin -->
+## Çalışan Ürünün Ekran Görüntüleri
 
-## Product Owner Değerlendirmesi
+<img width="2286" height="1243" alt="image" src="https://github.com/user-attachments/assets/57c8f4da-746f-4f50-81b3-e04e1bb6038d" />
+<img width="614" height="1225" alt="image" src="https://github.com/user-attachments/assets/f56a7036-116c-41a7-8539-f67db5daac06" />
+<img width="2545" height="1298" alt="image" src="https://github.com/user-attachments/assets/ef1c02a3-12b7-425a-aee4-81837eaf6a50" />
 
-- Sprint 2 sonunda ürünün, belirlenen MVP hedefini büyük ölçüde karşıladığı değerlendirilmektedir.
-- Geliştirilen çekirdek fonksiyonlar, kullanıcının toplantı kayıtlarından anlamlı özet ve görev bilgisi elde etmesini sağlayarak ürünün temel değer önerisini desteklemektedir.
-- Sprint boyunca ürün backlog'undaki öncelik sıralamasına uygun ilerlenmiş ve geliştirme sürecinde öncelikli kullanıcı ihtiyaçlarına odaklanılmıştır.
-- Ürünün tamamlanan fonksiyonlarının farklı kullanım senaryoları ile doğrulanması, ürün kalitesinin değerlendirilmesi açısından önem taşımaktadır.
-- Sprint 3'te arayüz entegrasyonunun tamamlanması ve ürünün uçtan uca çalışır hale getirilmesi öncelikli geliştirme alanları olarak değerlendirilmektedir.
 
 ## Sprint Review
 
@@ -94,6 +91,14 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 - **Tamamlanamayan:** Arayüzün otomasyona bağlanması ve Story 3 (takip maili) Sprint 3'e taşınmıştır.
 
 **Sprint Review katılımcıları:** Melike Yıldız, Ebuzer Yitiz, İrem Tosun, İpek Ilgın Şimşek, Yiğit Pakçe.
+
+## Product Owner Değerlendirmesi
+
+- Sprint 2 sonunda ürünün, belirlenen MVP hedefini büyük ölçüde karşıladığı değerlendirilmektedir.
+- Geliştirilen çekirdek fonksiyonlar, kullanıcının toplantı kayıtlarından anlamlı özet ve görev bilgisi elde etmesini sağlayarak ürünün temel değer önerisini desteklemektedir.
+- Sprint boyunca ürün backlog'undaki öncelik sıralamasına uygun ilerlenmiş ve geliştirme sürecinde öncelikli kullanıcı ihtiyaçlarına odaklanılmıştır.
+- Ürünün tamamlanan fonksiyonlarının farklı kullanım senaryoları ile doğrulanması, ürün kalitesinin değerlendirilmesi açısından önem taşımaktadır.
+- Sprint 3'te arayüz entegrasyonunun tamamlanması ve ürünün uçtan uca çalışır hale getirilmesi öncelikli geliştirme alanları olarak değerlendirilmektedir.
 
 ## Sprint Retrospective
 
