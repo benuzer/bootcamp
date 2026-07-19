@@ -75,6 +75,14 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 
 <!-- Çalışan ürünün ekran görüntülerini / kısa ekran kaydını images klasörüne yükleyip buraya ekleyin -->
 
+## Product Owner Değerlendirmesi
+
+- Sprint 2 sonunda ürünün, belirlenen MVP hedefini büyük ölçüde karşıladığı değerlendirilmektedir.
+- Geliştirilen çekirdek fonksiyonlar, kullanıcının toplantı kayıtlarından anlamlı özet ve görev bilgisi elde etmesini sağlayarak ürünün temel değer önerisini desteklemektedir.
+- Sprint boyunca ürün backlog'undaki öncelik sıralamasına uygun ilerlenmiş ve geliştirme sürecinde öncelikli kullanıcı ihtiyaçlarına odaklanılmıştır.
+- Ürünün tamamlanan fonksiyonlarının farklı kullanım senaryoları ile doğrulanması, ürün kalitesinin değerlendirilmesi açısından önem taşımaktadır.
+- Sprint 3'te arayüz entegrasyonunun tamamlanması ve ürünün uçtan uca çalışır hale getirilmesi öncelikli geliştirme alanları olarak değerlendirilmektedir.
+
 ## Sprint Review
 
 - Otomasyon platformu olarak Dify'a geçilmesine karar verildi ve akış Dify üzerinde yeniden kuruldu.
