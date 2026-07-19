@@ -85,7 +85,7 @@ Bu sprintte ürünün çalışan ilk versiyonu ortaya çıkmıştır.
 - Masaüstü ve mobil arayüz tasarımları tamamlandı.
 - **Tamamlanamayan:** Arayüzün otomasyona bağlanması ve Story 3 (takip maili) Sprint 3'e taşınmıştır.
 
-**Sprint Review katılımcıları:** Melike Yıldız, Ebuzer Yitiz, İrem Tosun.
+**Sprint Review katılımcıları:** Melike Yıldız, Ebuzer Yitiz, İrem Tosun, İpek Ilgın Şimşek, Yiğit Pakçe.
 
 ## Sprint Retrospective
 
