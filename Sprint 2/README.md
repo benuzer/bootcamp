@@ -1,6 +1,7 @@
 # Sprint 2
 
 **Sprint tarihleri:** 6 Temmuz 2026 – 19 Temmuz 2026
+
 **Sprint hedefi:** Çalışan bir çekirdek ürün ortaya çıkarmak. Kullanıcı bir toplantı transkriptini (veya ses kaydını) verdiğinde, ürünün gerçekten özet ve sorumlusuyla birlikte görev listesi üretmesi hedeflenmiştir. Sprint 1 planlama ve tasarım sprintiyken, Sprint 2 bir geliştirme sprinti olarak yürütülmüştür.
 
 ---
