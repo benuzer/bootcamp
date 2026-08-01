@@ -39,7 +39,7 @@ Sprint sonunda backlog'daki tüm story'ler tamamlanmıştır.
 
 ## Daily Scrum
 
-Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması nedeniyle Slack üzerinden yazılı olarak yürütülmüştür. Her üye günlük olarak "dün ne yaptım, bugün ne yapacağım, önümde engel var mı" sorularını yanıtlamıştır.
+Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması nedeniyle yazılı olarak yürütülmüştür. Slack üzerinden iletişim sağlanamadığı için bu sprintte WhatsApp grubuna geçilmiştir.
 
 **20 Temmuz 2026 — Sprint Planning Notları**
 - Sprint 2'nin değerlendirmesi yapıldı: çekirdek özet akışı çalışıyor ancak ön yüze bağlı değil.
