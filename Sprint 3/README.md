@@ -41,11 +41,19 @@ Sprint sonunda backlog'daki tüm story'ler tamamlanmıştır.
 
 Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması nedeniyle yazılı olarak yürütülmüştür. Slack üzerinden iletişim sağlanamadığı için bu sprintte WhatsApp grubuna geçilmiştir.
 
-**20 Temmuz 2026 — Sprint Planning Notları**
+**20 Temmuz 2026 — Sprint Planning**
 - Sprint 2'nin değerlendirmesi yapıldı: çekirdek özet akışı çalışıyor ancak ön yüze bağlı değil.
 - n8n'den Dify'a geçiş kararı alındı ve gerekçesi ekiple paylaşıldı.
 - Bu sprinte aday story'ler To Do'ya alındı: Story 2, 3, 4, 6, 7.
 - Sorumluluklar netleştirildi: Ebuzer Dify akışını kuracak, İrem tasarımı çalışan arayüze bağlayacak, Melike süreci takip edip dokümantasyon ve teslimi tamamlayacak.
+
+**Sprint boyunca ürün geliştirme**
+- İrem'in Sprint 1'de hazırladığı tasarım temel alınarak, Dify API'sine gerçekten bağlı, çalışan tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirildi.
+- Arayüz, kullanıcı testlerinden gelen geri bildirimlerle adım adım iyileştirildi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
+- Takip mailinin doğrudan Gmail'de taslak olarak açılması sağlandı; çoklu dil desteği (Türkçe/İngilizce) ve geçmiş analizleri kaydedip tekrar görüntüleme özelliği (Story 6) eklendi.
+- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi.
+- Google Takvim'e ekleme özelliği değerlendirildi, kapsam dışı bırakılmasına karar verildi.
+- Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
 Daily Scrum konuşmalarının ekran görüntüleri:
 
