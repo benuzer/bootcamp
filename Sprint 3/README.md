@@ -14,9 +14,9 @@
 
 ## Backlog Dağıtma Mantığı
 
-Sprint 2 sonunda elimizde çalışan bir özet üretme akışı vardı, ancak akış n8n üzerinde kuruluydu ve ön yüze bağlanmamıştı. Sprint 3'e başlarken ekip olarak **n8n yerine Dify'a geçme kararı** aldık: Dify'ın tek ekranda birden çok LLM adımını (ses yolu ve metin yolu ayrı ayrı) yönetebilmesi ve API'sinin doğrudan bir web arayüzüne bağlanabilmesi bizim için daha sürdürülebilirdi.
+Sprint 2 sonunda Dify'a geçiş kararı çoktan alınmıştı ve çalışan bir özet üretme akışı kurulmuştu; ancak bu akış henüz bir arayüze bağlanmamıştı. Sprint 3'ün önceliği, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, Dify API'sine gerçekten bağlı, çalışan bir HTML arayüz oluşturmaktı. Arayüzle otomasyonu Melike bağladı.
 
-Bu sprintte öncelik, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, İrem'in Sprint 1'de hazırladığı tasarımı gerçek bir HTML arayüze dönüştürerek bu akışa bağlamaktı. Ürün kullanıcı testine açıldıkça gelen geri bildirimlerle (girdi türü önceliği, ses yükleme alanı, görevlerin kişi/taraf bazlı gruplanması, Gmail'e taslak olarak düşme, çoklu dil desteği, geçmiş kayıtlar) kapsam genişledi; bu geri bildirimler Story 6 ve Story 7'yi de bu sprint içinde tamamlanır hale getirdi.
+Ürün üzerinde alınan geri bildirimlerle (girdi türü önceliği, ses yükleme alanı, görevlerin kişi/taraf bazlı gruplanması, Gmail'e taslak olarak düşme, çoklu dil desteği, geçmiş kayıtlar) kapsam genişledi; bu geliştirmeler Story 6 ve Story 7'yi de bu sprint içinde tamamlanır hale getirdi.
 
 ### Product Backlog
 
@@ -42,16 +42,15 @@ Sprint sonunda backlog'daki tüm story'ler tamamlanmıştır.
 Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması nedeniyle yazılı olarak yürütülmüştür. Slack üzerinden iletişim sağlanamadığı için bu sprintte WhatsApp grubuna geçilmiştir.
 
 **20 Temmuz 2026 — Sprint Planning**
-- Sprint 2'nin değerlendirmesi yapıldı: çekirdek özet akışı çalışıyor ancak ön yüze bağlı değil.
-- n8n'den Dify'a geçiş kararı alındı ve gerekçesi ekiple paylaşıldı.
+- Sprint 2'nin değerlendirmesi yapıldı: Dify akışı çalışıyor ancak bir arayüze bağlı değil.
+- Bu sprintin hedefi, kalan story'leri tamamlamak ve ürünü gerçek bir arayüze bağlamak olarak belirlendi.
 - Bu sprinte aday story'ler To Do'ya alındı: Story 2, 3, 4, 6, 7.
-- Sorumluluklar netleştirildi: Ebuzer Dify akışını kuracak, İrem tasarımı çalışan arayüze bağlayacak, Melike süreci takip edip dokümantasyon ve teslimi tamamlayacak.
 
 **Sprint boyunca ürün geliştirme**
-- İrem'in Sprint 1'de hazırladığı tasarım temel alınarak, Dify API'sine gerçekten bağlı, çalışan tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirildi.
-- Arayüz, kullanıcı testlerinden gelen geri bildirimlerle adım adım iyileştirildi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
+- Melike, Dify API'sine gerçekten bağlı, çalışan tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirdi ve otomasyonu arayüze bağladı.
+- Ürün üzerinde alınan geri bildirimlerle arayüz adım adım iyileştirildi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
 - Takip mailinin doğrudan Gmail'de taslak olarak açılması sağlandı; çoklu dil desteği (Türkçe/İngilizce) ve geçmiş analizleri kaydedip tekrar görüntüleme özelliği (Story 6) eklendi.
-- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi.
+- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi; son güncellemeler de Melike tarafından yapıldı.
 - Google Takvim'e ekleme özelliği değerlendirildi, kapsam dışı bırakılmasına karar verildi.
 - Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
@@ -79,16 +78,16 @@ Bu sprint sonunda ürün, Sprint 1'deki tasarımdan gerçek ve çalışan bir we
 
 Bu sprint, ürünün planlama ve tasarım aşamasından gerçek, uçtan uca çalışan bir asistana dönüştüğü geliştirme sprintidir. Sprint boyunca yapılanlar:
 
-- n8n yerine Dify'a geçildi; ses ve metin girdisi için iki ayrı LLM akışı kuruldu.
+- Sprint 2'de kurulan Dify akışı, Melike tarafından gerçek bir HTML arayüze bağlandı.
 - Görev listesi, takip maili ve sonraki toplantı gündemi üretimi tek bir prompt yapısında birleştirildi.
-- İrem'in Sprint 1 tasarımı temel alınarak, Dify API'sine gerçekten bağlı, tek dosyalık bir HTML arayüz geliştirildi.
-- Kullanıcı testleri sonucunda gelen geri bildirimlerle arayüz iyileştirildi: ses yükleme alanı, gruplu görev listesi, Gmail entegrasyonu, çoklu dil desteği, geçmiş kayıtlar.
+- Dify API'sine gerçekten bağlı, tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirildi.
+- Geliştirme sürecinde alınan geri bildirimlerle arayüz iyileştirildi: ses yükleme alanı, gruplu görev listesi, Gmail entegrasyonu, çoklu dil desteği, geçmiş kayıtlar.
 - Product Backlog'daki tüm story'ler (2, 3, 4, 6, 7) tamamlandı.
 - Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
 **Tamamlanan:** Story 2, 3, 4, 6, 7 — backlog'un tamamı.
 **Sonraki sprinte taşınan:** Yok — bu, projenin son sprintidir.
-**Katılımcılar:** İpek Ilgın Şimşek, Melike Yıldız, Ebuzer Yitiz, İrem Tosun, Yiğit Pakçe.
+**Katılımcılar:** İpek Ilgın Şimşek, Melike Yıldız, Ebuzer Yitiz, İrem Tosun.
 
 ## Sprint Retrospective
 
