@@ -47,10 +47,10 @@ Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması n
 - Bu sprinte aday story'ler To Do'ya alındı: Story 2, 3, 4, 6, 7.
 
 **Sprint boyunca ürün geliştirme**
-- İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı; Dify API'sine bağlayarak otomasyonu arayüze bağladı ve ürünü son haline getirdi.
-- Melike arayüzü adım adım geliştirdi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
-- Takip mailinin doğrudan Gmail'de taslak olarak açılması sağlandı; çoklu dil desteği (Türkçe/İngilizce) ve geçmiş analizleri kaydedip tekrar görüntüleme özelliği (Story 6) eklendi.
-- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi.
+- İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı, arayüzü otomasyona bağladı ve ürünü son haline getirdi.
+- Ebuzer'in Sprint 1 ve 2'de geliştirmiş olduğu otomasyonda Melike son geliştirmeleri ve düzenlemeleri yaptı: görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı (Story 2, Story 7); takip maili (Story 3) ve sonraki toplantı gündemi (Story 4) çıktıları, Dify promptlarının arayüzdeki dört bölümle birebir eşleşecek şekilde güncellenmesiyle tamamlandı.
+- Arayüzde girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, çoklu dil desteği (Türkçe/İngilizce) sağlandı.
+- Takip mailinin doğrudan Gmail'de taslak olarak açılması sağlandı; geçmiş analizleri kaydedip tekrar görüntüleme özelliği eklendi (Story 6).
 - Google Takvim'e ekleme özelliği değerlendirildi, kapsam dışı bırakılmasına karar verildi.
 - Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
