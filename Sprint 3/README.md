@@ -14,9 +14,9 @@
 
 ## Backlog Dağıtma Mantığı
 
-Sprint 2 sonunda Dify'a geçiş kararı çoktan alınmıştı ve çalışan bir özet üretme akışı kurulmuştu; ancak bu akış henüz bir arayüze bağlanmamıştı. Sprint 3'ün önceliği, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, Dify API'sine gerçekten bağlı, çalışan bir HTML arayüz oluşturmaktı. Arayüzle otomasyonu Melike bağladı.
+Sprint 2 sonunda Dify'a geçiş kararı çoktan alınmıştı ve çalışan bir özet üretme akışı kurulmuştu; ancak bu akış henüz bir arayüze bağlanmamıştı. Sprint 3'ün önceliği, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, Dify API'sine bağlı, çalışan bir HTML arayüz oluşturmaktı. İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı, arayüzü otomasyona bağladı ve ürünü son haline getirdi.
 
-Ürün üzerinde alınan geri bildirimlerle (girdi türü önceliği, ses yükleme alanı, görevlerin kişi/taraf bazlı gruplanması, Gmail'e taslak olarak düşme, çoklu dil desteği, geçmiş kayıtlar) kapsam genişledi; bu geliştirmeler Story 6 ve Story 7'yi de bu sprint içinde tamamlanır hale getirdi.
+Geliştirme sürecinde kapsam genişledi (girdi türü önceliği, ses yükleme alanı, görevlerin kişi/taraf bazlı gruplanması, Gmail'e taslak olarak düşme, çoklu dil desteği, geçmiş kayıtlar); bu geliştirmeler Story 6 ve Story 7'yi de bu sprint içinde tamamlanır hale getirdi.
 
 ### Product Backlog
 
@@ -43,14 +43,14 @@ Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması n
 
 **20 Temmuz 2026 — Sprint Planning**
 - Sprint 2'nin değerlendirmesi yapıldı: Dify akışı çalışıyor ancak bir arayüze bağlı değil.
-- Bu sprintin hedefi, kalan story'leri tamamlamak ve ürünü gerçek bir arayüze bağlamak olarak belirlendi.
+- Bu sprintin hedefi, kalan story'leri tamamlamak ve ürünü bir arayüze bağlamak olarak belirlendi.
 - Bu sprinte aday story'ler To Do'ya alındı: Story 2, 3, 4, 6, 7.
 
 **Sprint boyunca ürün geliştirme**
-- Melike, Dify API'sine gerçekten bağlı, çalışan tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirdi ve otomasyonu arayüze bağladı.
-- Ürün üzerinde alınan geri bildirimlerle arayüz adım adım iyileştirildi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
+- İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı; Dify API'sine bağlayarak otomasyonu arayüze bağladı ve ürünü son haline getirdi.
+- Melike arayüzü adım adım geliştirdi: girdi türü önceliği (transkript / ses) netleştirildi, ses dosyası yükleme alanı eklendi, görev listesi kişi bazlı (iç toplantı) ve taraf bazlı (müşteri görüşmesi) gruplandı.
 - Takip mailinin doğrudan Gmail'de taslak olarak açılması sağlandı; çoklu dil desteği (Türkçe/İngilizce) ve geçmiş analizleri kaydedip tekrar görüntüleme özelliği (Story 6) eklendi.
-- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi; son güncellemeler de Melike tarafından yapıldı.
+- Dify LLM promptları, arayüzdeki dört bölümle (özet, görev listesi, takip maili, sonraki gündem) birebir eşleşecek şekilde güncellendi.
 - Google Takvim'e ekleme özelliği değerlendirildi, kapsam dışı bırakılmasına karar verildi.
 - Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
@@ -66,7 +66,7 @@ Sprint board ekran görüntüsü (Product Backlog + To Do / In Progress / Done):
 
 ## Ürün Durumu
 
-Bu sprint sonunda ürün, Sprint 1'deki tasarımdan gerçek ve çalışan bir web arayüzüne dönüştürülmüştür. Kullanıcı transkript yapıştırabilir ya da ses dosyası yükleyebilir; toplantı türü, çıktı dili ve mail tonu seçebilir. Ürün, Dify üzerinden çalışan yapay zeka akışıyla toplantı özetini, sorumlusuna göre gruplanmış görev listesini, doğrudan Gmail'e taşınabilir takip mailini ve bir sonraki toplantı gündemini üretir. Ayrıca geçmiş analizler kaydedilip tekrar görüntülenebilir.
+Bu sprint sonunda ürün, çalışan bir web arayüzüne dönüştürülmüştür. Kullanıcı transkript yapıştırabilir ya da ses dosyası yükleyebilir; toplantı türü, çıktı dili ve mail tonu seçebilir. Ürün, Dify üzerinden çalışan yapay zeka akışıyla toplantı özetini, sorumlusuna göre gruplanmış görev listesini, doğrudan Gmail'e taşınabilir takip mailini ve bir sonraki toplantı gündemini üretir. Ayrıca geçmiş analizler kaydedilip tekrar görüntülenebilir.
 
 ![Ürün Durumu](./images/urun-durumu-3.png)
 
@@ -76,12 +76,11 @@ Bu sprint sonunda ürün, Sprint 1'deki tasarımdan gerçek ve çalışan bir we
 
 ## Sprint Review
 
-Bu sprint, ürünün planlama ve tasarım aşamasından gerçek, uçtan uca çalışan bir asistana dönüştüğü geliştirme sprintidir. Sprint boyunca yapılanlar:
+Bu sprint, ürünün planlama ve tasarım aşamasından uçtan uca çalışan bir asistana dönüştüğü geliştirme sprintidir. Sprint boyunca yapılanlar:
 
-- Sprint 2'de kurulan Dify akışı, Melike tarafından gerçek bir HTML arayüze bağlandı.
+- İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı ve Dify API'sine bağlı, çalışan bir arayüze (otopilot-app.html) dönüştürdü.
 - Görev listesi, takip maili ve sonraki toplantı gündemi üretimi tek bir prompt yapısında birleştirildi.
-- Dify API'sine gerçekten bağlı, tek dosyalık bir HTML arayüz (otopilot-app.html) geliştirildi.
-- Geliştirme sürecinde alınan geri bildirimlerle arayüz iyileştirildi: ses yükleme alanı, gruplu görev listesi, Gmail entegrasyonu, çoklu dil desteği, geçmiş kayıtlar.
+- Geliştirme sürecinde arayüz iyileştirildi: ses yükleme alanı, gruplu görev listesi, Gmail entegrasyonu, çoklu dil desteği, geçmiş kayıtlar.
 - Product Backlog'daki tüm story'ler (2, 3, 4, 6, 7) tamamlandı.
 - Ürünün demo videosu çekildi ve final teslime hazırlandı.
 
