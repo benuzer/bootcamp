@@ -14,7 +14,7 @@
 
 ## Backlog Dağıtma Mantığı
 
-Sprint 2 sonunda Dify'a geçiş kararı çoktan alınmıştı ve çalışan bir özet üretme akışı kurulmuştu; ancak bu akış henüz bir arayüze bağlanmamıştı. Sprint 3'ün önceliği, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, Dify API'sine bağlı, çalışan bir HTML arayüz oluşturmaktı. İrem'in ürettiği ilk HTML dosyası üzerinden Melike geliştirmeleri yaptı, arayüzü otomasyona bağladı ve ürünü son haline getirdi.
+Sprint 2 sonunda Dify'a geçiş kararı çoktan alınmıştı ve çalışan bir özet üretme akışı kurulmuştu; ancak bu akış henüz bir arayüze bağlanmamıştı. Sprint 3'ün önceliği, kalan çekirdek story'leri (görev listesi, takip maili, sonraki toplantı gündemi) tek bir Dify prompt'unda birleştirip, Dify API'sine bağlı, çalışan bir HTML arayüz oluşturmaktı.
 
 Geliştirme sürecinde kapsam genişledi (girdi türü önceliği, ses yükleme alanı, görevlerin kişi/taraf bazlı gruplanması, Gmail'e taslak olarak düşme, çoklu dil desteği, geçmiş kayıtlar); bu geliştirmeler Story 6 ve Story 7'yi de bu sprint içinde tamamlanır hale getirdi.
 
