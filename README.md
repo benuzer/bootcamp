@@ -1,4 +1,4 @@
-<!-- Not: Takım ismi "Kokpit" geçici, isterseniz değiştirin. -->
+<!-- Not: [ ... ] içindeki alanları ekip doldurmalı. Takım ismi "Kokpit" geçici, isterseniz değiştirin. -->
 
 # 🛫 Kokpit — Otopilot
 
@@ -37,7 +37,7 @@ Otopilot, kullanıcının yüklediği toplantı ses kaydını veya transkriptini
 - Sorumlusu ve tahmini tarihiyle birlikte görev listesi çıkarma
 - Müşteriye/katılımcılara gönderilmeye hazır profesyonel takip e-postası
 - Bir sonraki toplantı için otomatik gündem önerisi
-- Geçmiş toplantıların arşivlenmesi ve tekrar erişim *(sonraki sprintler)*
+- Geçmiş toplantıların arşivlenmesi ve tekrar erişim
 
 ### Hedef Kitle
 
@@ -54,6 +54,6 @@ Otopilot, kullanıcının yüklediği toplantı ses kaydını veya transkriptini
 
 ## Sprintler
 
-- [Sprint 1](./Sprint%201/README.md) — Planlama, tasarım ve backlog kurulumu
-- [Sprint 2](./Sprint%202/README.md) — Çekirdek ürünün geliştirilmesi (Dify + Groq otomasyonu)
-- Sprint 3 *(gelecek)*
+- [Sprint 1](./Sprint%201/README.md)
+- [Sprint 2](./Sprint%202/README.md)
+- [Sprint 3](./Sprint%203/README.md)
