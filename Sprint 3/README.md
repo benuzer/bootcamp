@@ -56,7 +56,11 @@ Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması n
 
 Daily Scrum konuşmalarının ekran görüntüleri:
 
-![Daily Scrum](./images/daily-scrum-3.png)
+![Daily Scrum 1](./images/Screenshot%202026-08-02%20at%2015.09.57.png)
+![Daily Scrum 2](./images/Screenshot%202026-08-02%20at%2015.10.20.png)
+![Daily Scrum 3](./images/Screenshot%202026-08-02%20at%2015.10.42.png)
+![Daily Scrum 4](./images/Screenshot%202026-08-02%20at%2015.12.09.png)
+![Daily Scrum 5](./images/Screenshot%202026-08-02%20at%2019.14.42.png)
 
 ## Sprint Board Update
 
@@ -72,7 +76,7 @@ Bu sprint sonunda ürün, çalışan bir web arayüzüne dönüştürülmüştü
 
 Ürünün çalışan halinin kısa demosu:
 
-[Demo Videosu](./images/otopilot-demo.mp4)
+[Demo Videosu](./images/OTOPILOT-DEMO.mp4)
 
 ## Sprint Review
 
