@@ -56,23 +56,23 @@ Daily Scrum toplantıları, ekip üyelerinin farklı saatlerde müsait olması n
 
 Daily Scrum konuşmalarının ekran görüntüleri:
 
-![Daily Scrum 1](./images/Screenshot%202026-08-02%20at%2015.09.57.png)
-![Daily Scrum 2](./images/Screenshot%202026-08-02%20at%2015.10.20.png)
-![Daily Scrum 3](./images/Screenshot%202026-08-02%20at%2015.10.42.png)
-![Daily Scrum 4](./images/Screenshot%202026-08-02%20at%2015.12.09.png)
-![Daily Scrum 5](./images/Screenshot%202026-08-02%20at%2019.14.42.png)
+<img src="./images/Screenshot%202026-08-02%20at%2015.09.57.png" width="420" alt="Daily Scrum 1"><br>
+<img src="./images/Screenshot%202026-08-02%20at%2015.10.20.png" width="420" alt="Daily Scrum 2"><br>
+<img src="./images/Screenshot%202026-08-02%20at%2015.10.42.png" width="420" alt="Daily Scrum 3"><br>
+<img src="./images/Screenshot%202026-08-02%20at%2015.12.09.png" width="420" alt="Daily Scrum 4"><br>
+<img src="./images/Screenshot%202026-08-02%20at%2019.14.42.png" width="420" alt="Daily Scrum 5">
 
 ## Sprint Board Update
 
 Sprint board ekran görüntüsü (Product Backlog + To Do / In Progress / Done):
 
-![Sprint Board](./images/sprint-board-3.png)
+<img src="./images/sprint-board-3.png" width="600" alt="Sprint Board">
 
 ## Ürün Durumu
 
 Bu sprint sonunda ürün, çalışan bir web arayüzüne dönüştürülmüştür. Kullanıcı transkript yapıştırabilir ya da ses dosyası yükleyebilir; toplantı türü, çıktı dili ve mail tonu seçebilir. Ürün, Dify üzerinden çalışan yapay zeka akışıyla toplantı özetini, sorumlusuna göre gruplanmış görev listesini, doğrudan Gmail'e taşınabilir takip mailini ve bir sonraki toplantı gündemini üretir. Ayrıca geçmiş analizler kaydedilip tekrar görüntülenebilir.
 
-![Ürün Durumu](./images/urun-durumu-3.png)
+<img src="./images/urun-durumu-3.png" width="600" alt="Ürün Durumu">
 
 Ürünün çalışan halinin kısa demosu:
 
