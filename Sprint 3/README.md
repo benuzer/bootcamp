@@ -64,9 +64,7 @@ Daily Scrum konuşmalarının ekran görüntüleri:
 
 ## Sprint Board Update
 
-Sprint board ekran görüntüsü (Product Backlog + To Do / In Progress / Done):
-
-<img src="./images/sprint-board-3.png" width="600" alt="Sprint Board">
+Bu sprintte Miro board üzerinde ayrıca bir güncelleme yapılmamıştır; backlog'un tamamı Sprint 2 sonunda oluşturulan yapıyla aynı kalmış, story durumları bu doküman üzerindeki Product Backlog tablosunda takip edilmiştir. Güncel board için bkz. [Miro Board](https://miro.com/app/board/uXjVH-qS2yM=/?share_link_id=828504705814).
 
 ## Ürün Durumu
 
